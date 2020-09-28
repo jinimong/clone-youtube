@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i><span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i><i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+    <section class="player">
+      <video
+        controls
+        src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
+      ></video>
+    </section>
+    <div class="infoAndUpNext">
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#python</li>
+            <li>#django</li>
+            <li>#clone-coding</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹
+              포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS,
+              Javascript</span
+            ><button class="expandBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="fas fa-thumbs-up active"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <div class="channel">
+          <div class="metadata">
+            <img
+              src="https://api.adorable.io/avatars/40/abott@adorable.png"
+              alt=""
+            />
+            <div class="info">
+              <span class="name">Super Programmer</span
+              ><span class="subscribers">1M subcribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img">
+              <img src="https://picsum.photos/seed/picsum1/400/300" alt="" />
+            </div>
+            <div class="info">
+              <span class="title"
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation</span
+              >
+              <span class="name">Super Programmer</span>
+              <span class="views">13K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="https://picsum.photos/seed/picsum2/400/300" alt="" />
+            </div>
+            <div class="info">
+              <span class="title"
+                >Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi</span
+              >
+              <span class="name">Super Programmer</span>
+              <span class="views">13K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="https://picsum.photos/seed/picsum3/400/300" alt="" />
+            </div>
+            <div class="info">
+              <span class="title"
+                >But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system</span
+              >
+              <span class="name">Super Programmer</span>
+              <span class="views">13K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
